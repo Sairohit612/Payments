@@ -1,2 +1,3 @@
-JWT_SECRET = "KIRAT TECH"
-module.exports =  JWT_SECRET
+module.exports = {
+JWT_SECRET: "sai-jwt-secret"
+}
