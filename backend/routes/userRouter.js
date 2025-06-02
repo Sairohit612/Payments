@@ -1,7 +1,7 @@
 const express = require("express");
 import {z} from "zod";
 const {User} = require("../db.js);
-conts {authMiddleware} = require("../middleware.js");
+const {authMiddleware} = require("../middleware.js");
 const jwt = require("jsonwebtoken");
 const { JWT_SECRET } = require("../config");
 
